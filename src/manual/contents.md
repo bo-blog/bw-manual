@@ -4,7 +4,7 @@
 - [采用 MarkDown 撰写日志](./write-with-markdown.html)
 - [使用云服务](./cloud-services.html)
 - [URL Rewrite 伪静态](./url-rewrite.html)
-- [升级和备份](#)
+- [升级和备份](./upload-and-backup.html)
 
 ---
 
@@ -16,9 +16,9 @@
 
 ---
 
-##设计和开发
-- [主题制作手册](#)
-- [插件制作手册](#)
+##开发
+- [主题制作手册](./theme-document.html)
+- [插件原理](#)
 - [数据库结构](#)
 - [多语言](#)
 - [欢迎参与开发](#)

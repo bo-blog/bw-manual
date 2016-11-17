@@ -12,7 +12,7 @@ $dir = './src/manual';
 $openDir = opendir($dir);
 while($readDir = @readdir ($openDir))
 {
-	if($readDir != "." && $readDir != ".." && $readDir != "contents.md") { 
+	if(substr ($readDir, 0, 1) != "." && $readDir != "contents.md") { 
 		$content = $parser -> makeHtml (file_get_contents ("$dir/$readDir"));
 		$tp1 = str_replace ('<!--DOCUMENT-->', $content, $tp);
 		$fileName = substr ($readDir, 0, -3);
